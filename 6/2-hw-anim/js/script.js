@@ -27,7 +27,6 @@ class Slider{
 			let modificator =  this.images[this.i].classList.add('left');
 
 			let imgHide = this.images[this.i];
-			
 			this.i = this.i > 0 ? this.i - 1 : this.images.length - 1;
 			this.toogleSlides(imgHide, this.images[this.i]);
 		}
